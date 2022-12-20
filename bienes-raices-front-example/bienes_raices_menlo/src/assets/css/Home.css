@@ -1,0 +1,20 @@
+.title-container {
+  height: 600px;
+  @apply px-8 mt-16 py-20 gap-4 flex-col backdrop-blur-lg flex text-3xl text-white justify-center items-start w-full
+}
+
+.background-img {
+  background-image: url("/img/modernhouse.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.products{
+
+  @apply p-8 flex flex-col justify-center items-center
+  
+}
+
+.cards{
+  @apply flex flex-row items-center justify-center flex-wrap w-full
+}

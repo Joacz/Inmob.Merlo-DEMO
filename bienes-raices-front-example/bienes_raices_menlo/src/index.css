@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+* {
+  font-family: 'Public sans';
+  scroll-behavior: smooth;
+}
+
+input:enabled {
+  border: none;
+  outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Libre Bodoni';
+  font-weight: lighter;
+}
+
+.title {
+  @apply font-semibold text-xl
+}
+
+.condensed {
+  font-family: 'PT Sans Narrow';
+}
+
+.normal {
+  font-family: 'Public sans';
+}
+
+.display {
+  font-family: 'Libre Bodoni';
+}
+
+a,
+button {
+  font-family: 'PT Sans Narrow';
+}
+
+a:hover {
+  @apply text-blue-900
+}

@@ -1,0 +1,24 @@
+{
+  "links": [
+    {
+      "name": "REDES SOCIALES",
+      "href": "/#social"
+    },
+    {
+      "name": "CONTACTO",
+      "href": "/contacto"
+    },
+    {
+      "name": "SOBRE NOSOTROS",
+      "href": "/#about"
+    },
+    {
+      "name": "UBICACIÓN",
+      "href": "/#location"
+    },
+    {
+      "name": "PROPIEDADES",
+      "href": "/listado/fecha-reciente/0/&text=&category="
+    }
+  ]
+}
