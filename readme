@@ -1,0 +1,16 @@
+Hi! this project is a preview of a page for a company, in this case the page is in spanish. 
+The project is made on Spring Boot for the Backend, and ReactJS with tailwindCSS for the Frontend.
+
+The site has these views:
+  -home : "/"
+  -list (list of posts) : "/listado/fecha-reciente/0/&text=&category="
+  -contact "/contacto"
+  -detail (detail of post) "/detalles/{id}"
+  -createPost : "/propiedad/crear"
+  -createCategory : "/categoria/crear"
+  
+ In the backend we have a DDBB with all the posts and categories with a simple ManyToMany relationship between tables.
+ 
+ Pending: create the Security methods with Spring Security (JWT token AUTH and ADMIN, USER roles).
+ 
+ Joaquín Gómez. GIT: https://github.com/Joacz
