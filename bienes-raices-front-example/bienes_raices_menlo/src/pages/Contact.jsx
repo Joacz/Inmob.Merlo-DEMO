@@ -123,7 +123,7 @@ export const Contact = () => {
               <mark className='condensed'>menlo.inomobiliaria@demo.com.ar</mark>{' '}
               y revisados en un período de 1 a 4 días. Si necesita atención
               INMEDIATA le recomendamos que nos llame al telefono{' '}
-              <mark className='condensed'>+54 123412</mark>
+              <mark className='condensed'>+54 300 399 1234</mark>
             </p>
           </div>
         </form>

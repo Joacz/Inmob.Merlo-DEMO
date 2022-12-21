@@ -29,7 +29,7 @@ export const Details = () => {
           <h1 className='normal'>{post.titulo}</h1>
           <h3 className='text-2xl'>${post.precio}</h3>
           <a
-            href=''
+            href='/contacto'
             className='bg-sky-500 w-fit p-2 text-3xl rounded hover:text-white text-white hover:bg-sky-700 normal'
           >
             Contactar
