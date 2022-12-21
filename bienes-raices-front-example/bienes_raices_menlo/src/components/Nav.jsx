@@ -26,12 +26,18 @@ export const Nav = (props) => {
   };
 
   return (
-    <nav className='flex fixed px-2 items-center w-full h-16 z-[1000] bg-slate-100 top-0 left-0 '>
+    <nav className='flex fixed md:justify-center justify-between  px-2 items-center w-full h-16 z-[1000] bg-slate-100 top-0 left-0 '>
       <MenuIcon
         width={40}
         onClick={() => handleResponsive()}
         className='md:hidden flex z-[1000] select-none'
       />
+      <a
+        href='/'
+        className='w-auto z-[1000 display text-2xl font-semibold text-slate-500'
+      >
+        {props.brand}
+      </a>
       <div
         className={`Nav top-0 justify-start fixed gap-8 p-4 md:h-16 h-full left-0 w-[80%] md:w-[100%] z-[100] bg-slate-100 ${
           responsive ? 'flex' : 'hidden md:flex'
@@ -40,7 +46,7 @@ export const Nav = (props) => {
         <div className='flex gap-8 justify-start px-4 items-center w-full mt-16  md:mt-0  md:w-1/2 md:flex-row flex-col'>
           <a
             href='/'
-            className='w-auto display text-2xl font-semibold text-slate-500'
+            className='w-auto md:flex hidden  z-[1000 display text-2xl font-semibold text-slate-500'
           >
             {props.brand}
           </a>
