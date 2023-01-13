@@ -14,3 +14,6 @@ The site has these views:
  Pending: create the Security methods with Spring Security (JWT token AUTH and ADMIN, USER roles).
  
  Joaquín Gómez. GIT: https://github.com/Joacz
+  
+ INFO: the database is NOT CREATED. If you want to test the project you'll need to create it. 
+ 
